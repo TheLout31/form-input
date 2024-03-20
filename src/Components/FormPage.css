@@ -1,0 +1,50 @@
+
+
+.mainFormCont {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding-top: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    background-color: yellow;
+  }
+  
+  button {
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  h2 {
+    color: yellow;
+  }
+  
+  .error{
+    color: red;
+    margin-bottom: 5px;
+  }
+  /* Optional: add more styles as needed */
+  
